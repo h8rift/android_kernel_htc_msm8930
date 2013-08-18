@@ -8,6 +8,8 @@ obj-$(CONFIG_MACH_RIDER) += rider-panel.o
 obj-$(CONFIG_MACH_HOLIDAY) += holiday-panel.o
 obj-$(CONFIG_MACH_VIGOR) += vigor-panel.o
 obj-$(CONFIG_MACH_RUBY) += ruby-panel.o
+obj-$(CONFIG_MACH_TC2) += tc2-panel.o
+obj-$(CONFIG_MACH_TC2) += board-tc2-gpu.o
 # msm8960
 obj-$(CONFIG_MACH_VILLE) += board-ville-panel.o board-ville-display.o
 obj-$(CONFIG_MACH_ELITE) += board-elite-display.o board-elite-panel.o
